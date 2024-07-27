@@ -1,0 +1,897 @@
+.frst-nav,
+.s-nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    /* border: 1px solid gray; */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+.frst-nav>ul,
+.s-nav>ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.frst-nav>ul>li,
+.s-nav>ul>li {
+    color: aliceblue;
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 4px;
+
+}
+
+.search-input {
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    height: 40px;
+    width: 110%;
+    font-size: medium;
+}
+
+.logo-text {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: green;
+}
+
+button {
+    color: rgb(31, 32, 32);
+    border: none;
+}
+
+#button1 {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: rgb(40, 43, 43);
+    width: 70px;
+    font-size: medium;
+}
+
+input {
+    height: 40px;
+}
+
+.left-side {
+    width: 25%;
+
+
+    margin-left: 100px;
+}
+
+.last-side {
+    margin-left: 35px;
+    padding: 4px;
+}
+
+.btnsignup {
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 70px;
+    height: 40px;
+    font-size: medium;
+}
+
+a:hover {
+    color: rgb(43, 228, 26);
+}
+
+.btnsignup:hover {
+    background-color: rgb(50, 214, 35);
+}
+
+.search-input:hover,
+#button1:hover {
+    border: 1px solid;
+    border-color: rgb(50, 214, 35);
+}
+
+/* ======================================================================================= */
+
+
+
+.first-slide {
+    /* background-color: rgba(238, 242, 243, 0.956); */
+    display: flex;
+}
+
+.first-slide > .f-slid {
+    margin: auto;
+    width: 40%;
+    height: 400px;
+}
+
+.first-slide > .f-slid > img {
+    width: 100%;
+    height: 100%;
+}
+
+.first-slide > .f-slid > h1 {
+    font-size: 80px;
+    margin-top: 0;
+    color: green;
+}
+
+.first-slide > .f-slid > h4 {
+    font-size: x-large;
+    margin-top: -45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.first-slide > .f-slid > button {
+    width: 20%;
+    height: 9%;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: green;
+}
+
+.sec-slide {
+    display: none; /* Hide all slides initially */
+}
+
+
+
+/* .first-slide {
+    background-color: rgba(238, 242, 243, 0.956);
+    display: flex;
+}
+
+.first-slide>.f-slid {
+    margin: auto;
+    width: 40%;
+    height: 400px;
+}
+
+.first-slide>.f-slid>img {
+    width: 100%;
+    height: 100%;
+}
+
+.first-slide>.f-slid>h1 {
+    font-size: 80px;
+    margin-top: 0;
+    color: green;
+}
+
+.first-slide>.f-slid>h4 {
+    font-size: x-large;
+    margin-top: -45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.first-slide>.f-slid>button {
+    width: 20%;
+    height: 9%;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: green;
+} */
+
+/* ========================================================================== */
+.moving-gradient {
+    margin: auto;
+    width: 90%;
+    height: 50vh;
+    padding-left: 20px;
+    padding-top: 5px;
+    background: linear-gradient(to right, lightBlue, pink, lightBlue);
+    border-radius: 20px;
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
+    border-bottom-left-radius: 150px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+.moving-gradient>h1 {
+    margin: 5px;
+    font-size: 70px;
+    color: rgb(72, 126, 108);
+}
+
+.moving-gradient>h5 {
+    margin: 0px 10px;
+    font-size: 25px;
+    color: rgb(72, 126, 108);
+    font-weight: lighter;
+}
+
+
+.moving-gradient>img {
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 10px groove green;
+    box-shadow: 10px 10px 10px rebeccapurple;
+
+    border-radius: 50px;
+    /* box-shadow: 5px 5px 5px #666b62; */
+}
+
+.chat-box {
+    margin: auto;
+    max-width: 60%;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: medium;
+    margin-top: -150px;
+    /* text-align: center; */
+}
+
+/* 
+  .upwhite {
+    margin-bottom: 20px;
+  } */
+
+.upwhite>button {
+    background-color: #ffffff;
+    color: #16c519;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upwhite>p {
+    text-align: right;
+    font-size: 15px;
+    color: #888;
+    margin-top: 20px;
+}
+
+.upwhite>p>a {
+    color: #12c660;
+    text-decoration: underline;
+}
+
+.parent-browsejod {
+    width: 90%;
+    margin: auto;
+}
+
+.parent-browsejod h1 {
+    font-size: 50px;
+    font-family: Proxima Nova;
+    /* background-color: beige; */
+    color: #666b62;
+}
+
+.parent-browsejod p {
+    margin-top: -30px;
+    font-size: 20px;
+    line-height: 1.7em;
+    /* background-color: burlywood; */
+    color: #666b62;
+}
+
+.parent-browsejod p a {
+    color: green;
+    text-decoration: underline;
+}
+
+.child-browsejob {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+}
+
+.child-browsejob div {
+    margin: 10px 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: larger;
+    flex-basis: 260px;
+    border-radius: 10px;
+}
+
+.child-browsejob div:hover {
+    background-color: #d6e1d5;
+}
+
+.child-browsejob div span {
+    width: 45%;
+}
+
+/* =========================================================== */
+/*                          Up Your work                        */
+.gameup {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-around;
+}
+
+.guivideo {
+    width: 35%;
+    border: 10px solid rgb(193, 209, 203);
+    border-radius: 10px;
+}
+
+.guivideo img {
+    width: 100%;
+    height: 100%;
+}
+
+.gametext {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.gametext h1 {
+    margin: 5px;
+    font-size: xxx-large;
+    color: rgb(47, 49, 48);
+}
+
+.foricon {
+    display: flex;
+    margin-left: 10px;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+
+.foricon div:nth-child(1) {
+    width: 10%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foricon div:nth-child(2) {
+    width: 80%;
+    height: 80px;
+}
+
+.foricon h4 {
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+.foricon p {
+    margin-top: -30px;
+    font: large;
+}
+
+#btnup button {
+    margin: auto;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#btnup button:nth-child(2) {
+    color: green;
+    border: 2px solid green;
+    font-weight: bolder;
+    background-color: white;
+}
+
+/* ===========================Enterprises============================= */
+.enterprise {
+    margin: auto;
+    display: flex;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(31, 98, 59);
+}
+
+.enterf {
+    width: 60%;
+    padding: 10px 30px;
+}
+
+.enterf h4 {
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.enterf .frst {
+    margin-top: 20px;
+    color: white;
+    font-size: 60px;
+    font-weight: light;
+    line-height: 60px;
+}
+
+.enterf h5 {
+    font-weight: lighter;
+    font-size: larger;
+    color: white;
+}
+
+.enters {
+    width: 40%;
+}
+
+.enters img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.enterhedg h5 {
+    margin: 5px 0px 0px 0px;
+}
+
+.whitebtn {
+    margin: 20px 0px 20px 20px;
+    width: 20%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+/* ================================================Find talent Section===================== */
+.backimage {
+    margin: auto;
+    padding: 20px 25px;
+    width: 87%;
+    height: 60vh;
+    background-image: url('https://www.mediabistro.com/wp-content/uploads/2016/06/successful-freelancer-repeat-work_opt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hedings {
+    color: rgb(39, 201, 27);
+    /* background-color: #88898c; */
+    width: 40%;
+}
+
+.hedings h4 {
+    margin: 10px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.hedings h1 {
+    margin-left: 10px;
+    font-size: 70px;
+    line-height: 60px;
+}
+
+.hedings p {
+    font-size: larger;
+    padding-left: 10px;
+}
+
+.parent3ofthreechild {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%
+}
+
+.threechild {
+    /* border: 1px solid rgb(255, 255, 255); */
+    border-radius: 10px;
+    background-color: green;
+    flex-basis: 30%;
+    height: 150px;
+    color: white;
+    padding: 10px 10px;
+}
+
+.threechild:hover {
+    background-color: white;
+    color: #16c519;
+}
+
+.threechild:nth-child(3) h2 {
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.threechild h2 {
+    margin: 0;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 40px;
+}
+
+.threechild p {
+    /* margin: 0px 100p 10p 10px; */
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.threechild p sup {
+    font-size: 10px;
+}
+
+/* ==============================================business========================= */
+.businesses {
+    margin: auto;
+    display: flex;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(235, 243, 238);
+}
+
+.enterlast {
+    width: 40%;
+    padding: 10px 30px;
+}
+
+.enterlast .frst {
+    margin-top: 30px;
+    color: rgb(52, 51, 51);
+    font-size: 60px;
+    font-weight: lighter;
+    line-height: 70px;
+}
+
+.enterhedg {
+    margin-top: -10px;
+}
+
+.enterhedg h2 {
+    display: flex;
+    align-items: center;
+}
+
+.enterhedg h2 img {
+    width: 3%;
+    height: 20%;
+    padding-right: 10px;
+}
+
+.enterimgheadphone {
+    width: 300px;
+    z-index: 1;
+}
+
+.enterslast {
+    /* padding: 200px 20px 0px 20px; */
+    border-radius: 0px 10px 10px 0px;
+    width: 40%;
+    color: white;
+}
+
+.enterslast h2 {
+    margin: 200px 20px 0% 20px;
+    /*top right bootom left*/
+    font-size: xxx-large;
+    line-height: 40px;
+    font-weight: lighter;
+}
+
+.enterslast div h3 {
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size: xx-large;
+    line-height: 25px;
+
+}
+
+.enterslast div p {
+    padding-left: 30px;
+    line-height: 10px;
+    margin-top: -20px;
+}
+
+/* ====================================================for talent======================= */
+.bandibackimage {
+    margin: auto;
+    width: 90%;
+    background-color: #1767c3;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+}
+
+.bandiimage {
+    width: 50%;
+    height: 100%;
+}
+
+.bandiimage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.talenthead {
+    width: 50%;
+    padding: 10px 30px 30px 30px;
+
+}
+
+.talenthead h3 {
+    font-size: x-large;
+}
+
+.talenthead h1 {
+    font-size: 60px;
+    width: 70%;
+    line-height: 55px;
+}
+
+.talenthead p {
+    margin-top: -10px;
+    width: 80%;
+    font-size: larger;
+}
+
+.line {
+    margin-top: 60px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.way3flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.way3flex div {
+    margin: 10px;
+    font-size: larger;
+    flex-basis: 150px;
+}
+
+.way3flex div button {
+    border-radius: 30px;
+}
+
+.find-opportunities {
+    width: 35%;
+    border-radius: 20px;
+    color: #1767c3;
+    background-color: white;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+/* ===============================================Trusted time==================================== */
+.trusted {
+    font-size: 70px;
+    color: #131111;
+    width: 90%;
+    margin: auto;
+    font-weight: lighter;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+
+    margin: auto;
+    border-radius: 10px;
+}
+
+.cards-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.card {
+    flex: 0 0 40%;
+    margin: 0 15px;
+    background-color: rgb(36, 100, 42);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* width: 450%; */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.card:nth-child(2) {
+    background-color: rgb(174, 82, 25);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+#card3 {
+    background-image: url('https://t3.ftcdn.net/jpg/01/21/31/32/360_F_121313256_eskCKBdIN2QBl5OyQweV5XYovMSFdUQ8.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.difflogos {
+    margin-top: 260px;
+    width: 100%;
+    height: 40%;
+    background-color: #2a502a;
+    border-radius: 10px;
+}
+
+.difflogos img {
+    margin: 15px 10px 10px 30px;
+    /*top right bootom left*/
+    width: 100px;
+    height: 50px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    width: 90%;
+    font-size: x-large;
+    font-weight: light;
+}
+
+.card h5 {
+    font-size: large;
+    margin-top: -10px;
+    font-weight: lighter;
+}
+
+.card p {
+    font-size: large;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+.card .line {
+    margin-top: -10px;
+}
+
+.card .way2flex {
+    margin: 10px;
+    display: flex;
+
+}
+
+.way2flex div {
+    margin: 5px 20px 0px 0px;
+    padding: 5px 20px -5px 5px;
+}
+
+.way2flex div h1 {
+    font-size: x-large;
+}
+
+.way2flex div p {
+    margin-top: -5px;
+}
+
+/* =========================Footers=============================== */
+
+footer {
+    width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(11, 48, 11);
+    color: white;
+    padding: 60px 40px 40px 40px;
+}
+
+footer .sec1 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 30px 30px;
+}
+
+.foo {
+    /* border: 1px solid white; */
+}
+
+.foo ul li {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin: 10px;
+    letter-spacing: 0.1px;
+}
+.foo ul li:nth-child(2) {
+    margin-top: 15px;
+}
+.foo ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+.foo ul li:not(:first-child):hover {
+    text-decoration: underline;
+}
+.sec2 {
+    /* border: 1px solid white; */
+    margin: auto;
+    /* background-color: rgb(224, 136, 30); */
+    padding: 10px 50px 30px 30px;
+}
+.sec2 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec2 div ul {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    line-height: 40px;
+}
+.sec2 div ul li a {
+    color: white;
+}
+.sec2 div ul li:not(:first-child):hover {
+    background-color: #888;
+}
+.sec2 div ul li {
+    margin: 0 8px;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+}
+.sec2 div ul li:not(:first-child) {
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}
+.sec2 .line {
+    margin-top: 2px;
+}
+.sec3 p a {
+    color: white;
+}
+.sec3 p a:hover {
+   text-decoration: underline;
+}
